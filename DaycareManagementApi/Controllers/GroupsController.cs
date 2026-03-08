@@ -1,129 +1,93 @@
-﻿using DaycareManagementApi.Data;
-using DaycareManagementApi.Entities;
+﻿using Daycare.Core.Entities;
+using Daycare.Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-[Route("api/[controller]")]
-[ApiController]
-public class GroupsController : ControllerBase
+namespace DaycareManagementApi.Controllers
 {
-    private readonly IDataContext _context;
-    private static int _nextId = 104;
-
-    // Constructor - מקבל IDataContext דרך Dependency Injection
-    public GroupsController(IDataContext context)
+    [Route("api/[controller]")]
+    [ApiController]
+    public class GroupsController : ControllerBase
     {
-        _context = context;
-    }
+        private readonly IGroupService _groupService;
 
-    // 1. שליפת רשימה (GET /api/groups)
-    [HttpGet]
-    public ActionResult<IEnumerable<Group>> GetGroups()
-    {
-        return Ok(_context.Groups.Where(g => g.IsActive));
-    }
-
-    // 2. שליפת בודד לפי מזהה (GET /api/groups/101)
-    [HttpGet("{id}")]
-    public ActionResult<Group> GetGroup(int id)
-    {
-        var group = _context.Groups.FirstOrDefault(g => g.Id == id && g.IsActive);
-
-        if (group == null)
+        public GroupsController(IGroupService groupService)
         {
-            return NotFound($"Group with Id {id} was not found or is inactive.");
+            _groupService = groupService;
         }
 
-        return Ok(group);
-    }
-
-    // 3. הוספה (POST /api/groups)
-    [HttpPost]
-    public ActionResult<Group> AddGroup([FromBody] Group newGroup)
-    {
-        newGroup.Id = _nextId++;
-        newGroup.CurrentCapacity = 0;
-        _context.Groups.Add(newGroup);
-
-        return CreatedAtAction(nameof(GetGroup), new { id = newGroup.Id }, newGroup);
-    }
-
-    // 4. עדכון (PUT /api/groups/101)
-    [HttpPut("{id}")]
-    public IActionResult UpdateGroup(int id, [FromBody] Group updatedGroup)
-    {
-        var existingGroup = _context.Groups.FirstOrDefault(g => g.Id == id && g.IsActive);
-
-        if (existingGroup == null)
+        [HttpGet]
+        public ActionResult<IEnumerable<Group>> GetGroups()
         {
-            return NotFound($"Group with Id {id} was not found or is inactive.");
+            return Ok(_groupService.GetGroups());
         }
 
-        existingGroup.Name = updatedGroup.Name;
-        existingGroup.AgeRange = updatedGroup.AgeRange;
-        existingGroup.MaxCapacity = updatedGroup.MaxCapacity;
-        existingGroup.RoomNumber = updatedGroup.RoomNumber;
-        existingGroup.MainStaffId = updatedGroup.MainStaffId;
-
-        return NoContent();
-    }
-
-    // 5. מחיקה (DELETE /api/groups/101)
-    [HttpDelete("{id}")]
-    public IActionResult DeleteGroup(int id)
-    {
-        var groupToRemove = _context.Groups.FirstOrDefault(g => g.Id == id);
-
-        if (groupToRemove == null)
+        [HttpGet("{id}")]
+        public ActionResult<Group> GetGroup(int id)
         {
-            return NotFound($"Group with Id {id} was not found.");
+            var group = _groupService.GetGroupById(id);
+            if (group == null)
+            {
+                return NotFound($"Group with Id {id} was not found or is inactive.");
+            }
+            return Ok(group);
         }
 
-        if (groupToRemove.CurrentCapacity > 0)
+        [HttpPost]
+        public ActionResult<Group> AddGroup([FromBody] Group newGroup)
         {
-            return BadRequest($"Cannot delete group with {groupToRemove.CurrentCapacity} children. Please move children first.");
+            var addedGroup = _groupService.AddGroup(newGroup);
+            return CreatedAtAction(nameof(GetGroup), new { id = addedGroup.Id }, addedGroup);
         }
 
-        groupToRemove.IsActive = false;
-
-        return NoContent();
-    }
-
-    // 6. פעולה נוספת: קבוצות עם מקום פנוי (GET /api/groups/available)
-    [HttpGet("available")]
-    public ActionResult<IEnumerable<Group>> GetAvailableGroups()
-    {
-        var availableGroups = _context.Groups
-            .Where(g => g.IsActive && g.CurrentCapacity < g.MaxCapacity)
-            .ToList();
-
-        if (!availableGroups.Any())
+        [HttpPut("{id}")]
+        public IActionResult UpdateGroup(int id, [FromBody] Group updatedGroup)
         {
-            return NotFound("No groups with available space.");
+            var success = _groupService.UpdateGroup(id, updatedGroup);
+            if (!success)
+            {
+                return NotFound($"Group with Id {id} was not found or is inactive.");
+            }
+            return NoContent();
         }
 
-        return Ok(availableGroups);
-    }
-
-    // 7. פעולה נוספת: סטטיסטיקות קבוצה (GET /api/groups/101/stats)
-    [HttpGet("{id}/stats")]
-    public ActionResult<object> GetGroupStats(int id)
-    {
-        var group = _context.Groups.FirstOrDefault(g => g.Id == id && g.IsActive);
-
-        if (group == null)
+        [HttpDelete("{id}")]
+        public IActionResult DeleteGroup(int id)
         {
-            return NotFound($"Group with Id {id} was not found or is inactive.");
+            var result = _groupService.DeleteGroup(id);
+
+            if (!result.Success)
+            {
+                if (result.ErrorMessage == "NotFound")
+                {
+                    return NotFound($"Group with Id {id} was not found.");
+                }
+                // אם יש הודעת שגיאה אחרת (כמו "אסור למחוק קבוצה עם ילדים") נחזיר בקשה שגויה
+                return BadRequest(result.ErrorMessage);
+            }
+
+            return NoContent();
         }
 
-        var stats = new
+        [HttpGet("available")]
+        public ActionResult<IEnumerable<Group>> GetAvailableGroups()
         {
-            GroupName = group.Name,
-            TotalCapacity = group.MaxCapacity,
-            CurrentOccupancy = group.CurrentCapacity,
-            AvailableSpots = group.AvailableSpots,
-            OccupancyPercentage = group.OccupancyRate
-        };
+            var availableGroups = _groupService.GetAvailableGroups();
+            if (!availableGroups.Any())
+            {
+                return NotFound("No groups with available space.");
+            }
+            return Ok(availableGroups);
+        }
 
-        return Ok(stats);
+        [HttpGet("{id}/stats")]
+        public ActionResult<object> GetGroupStats(int id)
+        {
+            var stats = _groupService.GetGroupStats(id);
+            if (stats == null)
+            {
+                return NotFound($"Group with Id {id} was not found or is inactive.");
+            }
+            return Ok(stats);
+        }
     }
 }

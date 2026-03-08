@@ -1,0 +1,16 @@
+C:\Users\user1\Desktop\תכנות תשפה\מה-ברוק\DaycareManagementApi\Daycare.Service\bin\Debug\net8.0\Daycare.Service.deps.json
+C:\Users\user1\Desktop\תכנות תשפה\מה-ברוק\DaycareManagementApi\Daycare.Service\bin\Debug\net8.0\Daycare.Service.dll
+C:\Users\user1\Desktop\תכנות תשפה\מה-ברוק\DaycareManagementApi\Daycare.Service\bin\Debug\net8.0\Daycare.Service.pdb
+C:\Users\user1\Desktop\תכנות תשפה\מה-ברוק\DaycareManagementApi\Daycare.Service\obj\Debug\net8.0\Daycare.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\תכנות תשפה\מה-ברוק\DaycareManagementApi\Daycare.Service\obj\Debug\net8.0\Daycare.Service.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\תכנות תשפה\מה-ברוק\DaycareManagementApi\Daycare.Service\obj\Debug\net8.0\Daycare.Service.AssemblyInfo.cs
+C:\Users\user1\Desktop\תכנות תשפה\מה-ברוק\DaycareManagementApi\Daycare.Service\obj\Debug\net8.0\Daycare.Service.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\תכנות תשפה\מה-ברוק\DaycareManagementApi\Daycare.Service\obj\Debug\net8.0\Daycare.Service.sourcelink.json
+C:\Users\user1\Desktop\תכנות תשפה\מה-ברוק\DaycareManagementApi\Daycare.Service\obj\Debug\net8.0\Daycare.Service.dll
+C:\Users\user1\Desktop\תכנות תשפה\מה-ברוק\DaycareManagementApi\Daycare.Service\obj\Debug\net8.0\refint\Daycare.Service.dll
+C:\Users\user1\Desktop\תכנות תשפה\מה-ברוק\DaycareManagementApi\Daycare.Service\obj\Debug\net8.0\Daycare.Service.pdb
+C:\Users\user1\Desktop\תכנות תשפה\מה-ברוק\DaycareManagementApi\Daycare.Service\obj\Debug\net8.0\ref\Daycare.Service.dll
+C:\Users\user1\Desktop\תכנות תשפה\מה-ברוק\DaycareManagementApi\Daycare.Service\obj\Debug\net8.0\Daycare.Service.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\תכנות תשפה\מה-ברוק\DaycareManagementApi\Daycare.Service\bin\Debug\net8.0\Daycare.Core.dll
+C:\Users\user1\Desktop\תכנות תשפה\מה-ברוק\DaycareManagementApi\Daycare.Service\bin\Debug\net8.0\Daycare.Core.pdb
+C:\Users\user1\Desktop\תכנות תשפה\מה-ברוק\DaycareManagementApi\Daycare.Service\obj\Debug\net8.0\Daycare..8E8FDB02.Up2Date

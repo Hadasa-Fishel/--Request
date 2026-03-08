@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|c:\\users\\user1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\daycaremanagementapi\\daycaremanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|solutionrelative:daycaremanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|c:\\users\\user1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\daycaremanagementapi\\daycaremanagementapi\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|solutionrelative:daycaremanagementapi\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|c:\\users\\user1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\daycaremanagementapi\\daycaremanagementapi\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|solutionrelative:daycaremanagementapi\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|c:\\users\\user1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\daycaremanagementapi\\daycaremanagementapi\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|solutionrelative:daycaremanagementapi\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|c:\\users\\user1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\daycaremanagementapi\\daycaremanagementapi\\controllers\\childrencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|solutionrelative:daycaremanagementapi\\controllers\\childrencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|c:\\users\\user1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\daycaremanagementapi\\daycaremanagementapi\\data\\fakecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|solutionrelative:daycaremanagementapi\\data\\fakecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|c:\\users\\user1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\daycaremanagementapi\\daycaremanagementapi\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|solutionrelative:daycaremanagementapi\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|c:\\users\\user1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\daycaremanagementapi\\daycaremanagementapi\\data\\idatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|solutionrelative:daycaremanagementapi\\data\\idatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|c:\\users\\user1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\daycaremanagementapi\\daycaremanagementapi\\daycaremanagementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|solutionrelative:daycaremanagementapi\\daycaremanagementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|c:\\users\\user1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\daycaremanagementapi\\daycaremanagementapi\\entities\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|solutionrelative:daycaremanagementapi\\entities\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|c:\\users\\user1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\daycaremanagementapi\\daycaremanagementapi\\entities\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|solutionrelative:daycaremanagementapi\\entities\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|c:\\users\\user1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\daycaremanagementapi\\daycaremanagementapi\\entities\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|solutionrelative:daycaremanagementapi\\entities\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|c:\\users\\user1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\daycaremanagementapi\\daycaremanagementapi\\entities\\child.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB06130B-7971-4EB7-BDEE-42403ED9B9BF}|DaycareManagementApi\\DaycareManagementApi.csproj|solutionrelative:daycaremanagementapi\\entities\\child.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\Program.cs",
+              "RelativeDocumentMoniker": "DaycareManagementApi\\Program.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\Program.cs",
+              "RelativeToolTip": "DaycareManagementApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T00:05:56.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FakeContext.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\Data\\FakeContext.cs",
+              "RelativeDocumentMoniker": "DaycareManagementApi\\Data\\FakeContext.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\Data\\FakeContext.cs",
+              "RelativeToolTip": "DaycareManagementApi\\Data\\FakeContext.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAqwEMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T00:04:36.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "DaycareManagementApi\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\Data\\DataContext.cs",
+              "RelativeToolTip": "DaycareManagementApi\\Data\\DataContext.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAqwH0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T00:04:06.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IDataContext.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\Data\\IDataContext.cs",
+              "RelativeDocumentMoniker": "DaycareManagementApi\\Data\\IDataContext.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\Data\\IDataContext.cs",
+              "RelativeToolTip": "DaycareManagementApi\\Data\\IDataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T00:03:20.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GroupsController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\Controllers\\GroupsController.cs",
+              "RelativeDocumentMoniker": "DaycareManagementApi\\Controllers\\GroupsController.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\Controllers\\GroupsController.cs",
+              "RelativeToolTip": "DaycareManagementApi\\Controllers\\GroupsController.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAswIAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T23:54:28.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\Controllers\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "DaycareManagementApi\\Controllers\\AttendanceController.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\Controllers\\AttendanceController.cs",
+              "RelativeToolTip": "DaycareManagementApi\\Controllers\\AttendanceController.cs",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAswJwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T23:49:33.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StaffController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\Controllers\\StaffController.cs",
+              "RelativeDocumentMoniker": "DaycareManagementApi\\Controllers\\StaffController.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\Controllers\\StaffController.cs",
+              "RelativeToolTip": "DaycareManagementApi\\Controllers\\StaffController.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAqwGUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T14:53:52.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChildrenController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\Controllers\\ChildrenController.cs",
+              "RelativeDocumentMoniker": "DaycareManagementApi\\Controllers\\ChildrenController.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\Controllers\\ChildrenController.cs",
+              "RelativeToolTip": "DaycareManagementApi\\Controllers\\ChildrenController.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAqwIkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T14:52:43.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\Entities\\Attendance.cs",
+              "RelativeDocumentMoniker": "DaycareManagementApi\\Entities\\Attendance.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\Entities\\Attendance.cs",
+              "RelativeToolTip": "DaycareManagementApi\\Entities\\Attendance.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T14:49:58.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\Entities\\Group.cs",
+              "RelativeDocumentMoniker": "DaycareManagementApi\\Entities\\Group.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\Entities\\Group.cs",
+              "RelativeToolTip": "DaycareManagementApi\\Entities\\Group.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T14:49:14.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Staff.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\Entities\\Staff.cs",
+              "RelativeDocumentMoniker": "DaycareManagementApi\\Entities\\Staff.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\Entities\\Staff.cs",
+              "RelativeToolTip": "DaycareManagementApi\\Entities\\Staff.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T14:46:37.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Child.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\Entities\\Child.cs",
+              "RelativeDocumentMoniker": "DaycareManagementApi\\Entities\\Child.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\Entities\\Child.cs",
+              "RelativeToolTip": "DaycareManagementApi\\Entities\\Child.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T14:44:20.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DaycareManagementApi.csproj",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\DaycareManagementApi.csproj",
+              "RelativeDocumentMoniker": "DaycareManagementApi\\DaycareManagementApi.csproj",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05EA\u05E9\u05E4\u05D4\\\u05DE\u05D4-\u05D1\u05E8\u05D5\u05E7\\DaycareManagementApi\\DaycareManagementApi\\DaycareManagementApi.csproj",
+              "RelativeToolTip": "DaycareManagementApi\\DaycareManagementApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-01T14:43:34.175Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
